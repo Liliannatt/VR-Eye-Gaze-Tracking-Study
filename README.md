@@ -11,11 +11,13 @@ GazeTest is a Unity script designed to implement eye gaze tracking for a charact
 - Potentially allows for interactions with objects in the scene based on where the user is looking.
 
 ### Features
+
 Real-time eye tracking using Oculus VR hardware.
 Visualization of the user's gaze direction with a LineRenderer.
 Framework for interacting with objects based on gaze.
 
 ### Methods
+
 Initialization (Start Method)
 - Initializes references to essential GameObjects and components.
 - Calls AddEyeGaze() to set up eye gaze tracking.
@@ -28,4 +30,34 @@ Eye Gaze Tracking (AddEyeGaze Method)
 Update()
 - Updates the eyes' rotations based on eye gaze data.
 - Constructs the gaze ray and updates the LineRenderer.
+
+## :smirk: Highlight
+
+The Highlight script is designed to manage the visual highlighting effect on GameObjects within your Unity scene. When attached to a GameObject, it allows that object to be highlighted or de-highlighted programmatically, typically in response to user interactions like gaze or selection.
+
+### Methods
+
+Initialization (Awake Method):
+- On startup, the script gathers all materials from the assigned renderers.
+- Sets the alpha transparency of the highlight color.
+
+Highlight Toggling (ToggleHighlight Method):
+- When enabled (ToggleHighlight(true)), it activates the emission keyword on the materials and sets the emission color to the specified highlight color.
+- When disabled (ToggleHighlight(false)), it deactivates the emission, removing the highlight effect.
+
+## :zany_face: HighlightOnRaycast
+
+The HighlightOnRaycast script is responsible for detecting which objects are being targeted by a raycast and applying the highlighting effect to them. It simulates the effect of an object being highlighted when the user looks at it or points at it.
+
+### Methods
+
+Raycast Execution (Update Method):
+- Every frame, the script casts a ray from the sourceObject in its forward direction.
+- Checks if the ray hits an object and retrieves its main parent using FindPrefabParent.
+- If the parent has a Highlight component, it toggles the highlight on.
+- De-highlights the last highlighted object if it's different from the current one.
+- Logs relevant data into csvData.
+
+Data Saving:
+- When the 'Escape' key is pressed, it writes the logged data to a CSV file using WriteCsvToFile.
 
