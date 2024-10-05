@@ -123,3 +123,9 @@ The recording times for each participant are as follows:
 <p align='center'>
     <img src="image\duration_complex.png" width="600" height="400">
 </p>
+
+#### Simple vs. Complex
+
+<p align='center'>
+    <img src="image\simple_vs_complex.png" width="600" height="400">
+</p>
