@@ -69,13 +69,13 @@ Data Saving:
     <img src="image\gaze test.png" width="600" height="400">
 </p>
 
-### Simple Envorinment
+### Simple Environment
 
 <p align='center'>
     <img src="image\simple.png" width="600" height="400">
 </p>
 
-#### Participants' Recording Times in Simple Envorinment
+#### Participants' Recording Times in Simple Environment
 
 In this experiment, participants were asked to find specific items (carrot, zucchini, milk, blue package) out of 10 items. 
 
@@ -95,13 +95,11 @@ The recording times for each participant are as follows:
     <img src="image\simple.png" width="600" height="400">
 </p>
 
-#### Participants' Recording Times in Complex Envorinment
+#### Participants' Recording Times in Complex Environment
 
 In this experiment, participants were asked to find specific items (carrot, zucchini, milk, blue package) out of 20 items. 
 
 The recording times for each participant are as follows:
-
-## Participants' Recording Times
 
 | Participant | Start Recording (s) | End Recording (s) | Duration (s)  |
 |-------------|---------------------|-------------------|---------------|
@@ -112,3 +110,16 @@ The recording times for each participant are as follows:
 | 5           | 4.79134             | 12.62338          | 7.83204       |
 
 
+### Duration Comparison
+
+#### Simple Environment
+
+<p align='center'>
+    <img src="image\duration_simple.png" width="600" height="400">
+</p>
+
+#### Complex Environment
+
+<p align='center'>
+    <img src="image\duration_complex.png" width="600" height="400">
+</p>
