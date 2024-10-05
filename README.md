@@ -61,20 +61,54 @@ Raycast Execution (Update Method):
 Data Saving:
 - When the 'Escape' key is pressed, it writes the logged data to a CSV file using WriteCsvToFile.
 
-## :hugs: ChangeColorOnRaycast
-
-The ChangeColorOnRaycast script provides a simpler example of how to change the appearance of objects when they are targeted by a raycast. Instead of using the emission property, it directly changes the material color of the object.
-
-### Methods
-
-Raycast Execution (Update Method):
-- On each frame, a ray is cast from the main camera to the mouse position.
-- If the ray hits an object with the Highlight script, it toggles the highlight on.
-- If no object is hit, it ensures all objects with the Highlight script have their highlights turned off.
 
 ## Results
 
+### Gaze Test
 <p align='center'>
     <img src="image\gaze test.png" width="600" height="400">
 </p>
+
+### Simple Envorinment
+
+<p align='center'>
+    <img src="image\simple.png" width="600" height="400">
+</p>
+
+#### Participants' Recording Times in Simple Envorinment
+
+In this experiment, participants were asked to find specific items (carrot, zucchini, milk, blue package) out of 10 items. 
+
+The recording times for each participant are as follows:
+
+| Participant | Start Recording (s) | End Recording (s) | Duration (s)  |
+|-------------|---------------------|-------------------|---------------|
+| 1           | 3.178294            | 14.20554          | 11.027246     |
+| 2           | 6.47086             | 19.96678          | 13.49592      |
+| 3           | 10.17717            | 29.8106           | 19.63343      |
+| 4           | 4.547086            | 46.78528          | 42.238194     |
+| 5           | 5.215302            | 18.59597          | 13.380668     |
+
+
+### Complex Envorinment
+<p align='center'>
+    <img src="image\simple.png" width="600" height="400">
+</p>
+
+#### Participants' Recording Times in Complex Envorinment
+
+In this experiment, participants were asked to find specific items (carrot, zucchini, milk, blue package) out of 20 items. 
+
+The recording times for each participant are as follows:
+
+## Participants' Recording Times
+
+| Participant | Start Recording (s) | End Recording (s) | Duration (s)  |
+|-------------|---------------------|-------------------|---------------|
+| 1           | 8.581841            | 19.855            | 11.273159     |
+| 2           | 4.603893            | 14.02682          | 9.422927      |
+| 3           | 3.12258             | 13.84379          | 10.72121      |
+| 4           | 16.07892            | 46.25076          | 30.17184      |
+| 5           | 4.79134             | 12.62338          | 7.83204       |
+
 
