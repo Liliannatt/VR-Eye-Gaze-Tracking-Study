@@ -1,5 +1,7 @@
 # VR-Eye-Gaze-Tracking-Study
 
+This project designed and tested an eye tracking system with a virtual robot through Unity and C# in a visual kitchen environments with varying object counts. The purpose of this study is to assess the human target-locking behaviour in simple vs. complex environments through gaze tracking.
+
 ## :stuck_out_tongue_winking_eye: GazeTest
 
 GazeTest is a Unity script designed to implement eye gaze tracking for a character in a VR environment using the Oculus VR SDK. It captures eye movement data from the VR headset and applies it to the character's eyes in real-time, enhancing immersion and allowing for gaze-based interactions within the scene.
