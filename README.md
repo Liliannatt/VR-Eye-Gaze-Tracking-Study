@@ -62,7 +62,7 @@ Data Saving:
 - When the 'Escape' key is pressed, it writes the logged data to a CSV file using WriteCsvToFile.
 
 
-## Results
+## :thinking: Results
 
 ### Gaze Test
 <p align='center'>
