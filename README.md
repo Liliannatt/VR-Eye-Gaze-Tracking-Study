@@ -1,6 +1,6 @@
 # VR-Eye-Gaze-Tracking-Study
 
-This project designed and tested an eye tracking system with a virtual robot through Unity and C# in a visual kitchen environments with varying object counts. The purpose of this study is to assess the human target-locking behaviour in simple vs. complex environments through gaze tracking.
+This project designed and tested an eye tracking system through Unity and C# in a visual kitchen environments with varying object counts. The purpose of this study is to assess the human target-locking behaviour in simple vs. complex environments through gaze tracking.
 
 ## :stuck_out_tongue_winking_eye: GazeTest
 
