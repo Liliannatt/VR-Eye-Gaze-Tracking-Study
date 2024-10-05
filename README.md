@@ -10,10 +10,6 @@ GazeTest is a Unity script designed to implement eye gaze tracking for a charact
 - Visualizes the gaze direction using a LineRenderer.
 - Potentially allows for interactions with objects in the scene based on where the user is looking.
 
-Initialization (Start Method)
-Eye Gaze Tracking (AddEyeGaze Method)
-Updating Gaze Direction (Update Method)
-
 ### Features
 Real-time eye tracking using Oculus VR hardware.
 Visualization of the user's gaze direction with a LineRenderer.
@@ -32,3 +28,4 @@ Eye Gaze Tracking (AddEyeGaze Method)
 Update()
 - Updates the eyes' rotations based on eye gaze data.
 - Constructs the gaze ray and updates the LineRenderer.
+
